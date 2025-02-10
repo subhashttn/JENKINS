@@ -6,12 +6,12 @@ pipeline {
                 echo "HELLO WORD BUILDING "
             }
         }
-        stage('Test') {
-            steps {
-                // Your test steps here
-                echo "$name $lastname is testing"
-            }
-        }
+        // stage('Test') {
+        //     steps {
+        //         // Your test steps here
+        //         echo "$name $lastname is testing"
+        //     }
+        // }
         stage('clone'){
               steps{
                   echo "cloning ho raha h"
