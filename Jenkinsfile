@@ -3,17 +3,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Your build steps here
+                echo "HELLO WORD BUILDING"
             }
         }
         stage('Test') {
             steps {
                 // Your test steps here
+                echo "$name $lastname is testing"
             }
         }
         stage('Deploy') {
             steps {
                 // Your deployment steps here
+                echo "deployoing"
             }
         }
     }
