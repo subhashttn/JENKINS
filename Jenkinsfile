@@ -12,7 +12,7 @@ pipeline {
                 echo "$name $lastname is testing"
             }
         }
-        stage("clone){
+        stage('clone'){
               steps{
                   git clone https://github.com/subhashttn/JENKINS
             }
