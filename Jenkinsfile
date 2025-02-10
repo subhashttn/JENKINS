@@ -16,7 +16,7 @@ pipeline {
             steps {
                 // Your deployment steps here
                 echo "deployoing"
-                sh ./hello.sh
+                sh "./hello.sh"
                 
             }
         }
