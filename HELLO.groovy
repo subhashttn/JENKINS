@@ -6,8 +6,7 @@ pipeline {
             steps {
                 
                 echo "WELCOME $name $lastname"
-                
-            }
+                echo "new commit"            }
         }
     }
 }
