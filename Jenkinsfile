@@ -14,7 +14,7 @@ pipeline {
         }
         stage('clone'){
               steps{
-                  git clone https://github.com/subhashttn/JENKINS
+                  git clone 'https://github.com/subhashttn/JENKINS'
             }
         }
         stage('Deploy') {
