@@ -23,6 +23,7 @@ pipeline {
                 echo "deployoing"
                 //sh "chmod +x ./hello.sh"
                 //sh "./hello.sh"
+                echo "hi depo"
                 
             }
         }
