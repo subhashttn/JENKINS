@@ -16,6 +16,7 @@ pipeline {
             steps {
                 // Your deployment steps here
                 echo "deployoing"
+                sh "chmod +x ./hello.sh"
                 sh "./hello.sh"
                 
             }
