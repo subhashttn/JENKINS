@@ -24,7 +24,7 @@ pipeline {
                 //sh "chmod +x ./hello.sh"
                 //sh "./hello.sh"
                 echo "hi depo"
-                echo "naya "
+                echo "naya"
                 
             }
         }
