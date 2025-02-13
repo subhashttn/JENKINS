@@ -14,7 +14,7 @@ pipeline {
         // }
         stage('clone'){
               steps{
-                  echo "cloning ho raha h"
+                  echo "cloning ho raha h "
             }
         }
         stage('Deploy') {
